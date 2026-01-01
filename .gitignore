@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Documents (giữ lại cấu trúc thư mục)
+Metro_DuongSatDoThi/*
+!Metro_DuongSatDoThi/.gitkeep
+DauThau_KhuGiaoDuc_TOD/*
+!DauThau_KhuGiaoDuc_TOD/.gitkeep
+ChungCu/*
+!ChungCu/.gitkeep
+NhaO_XaHoi/*
+!NhaO_XaHoi/.gitkeep
+Khac/*
+!Khac/.gitkeep
+
+# Config (chứa API key)
+config.json
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+documents.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
